@@ -1,0 +1,13 @@
+name: energy-use-mobile
+title: energy-use-mobile
+username:
+account: mhenderson
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3690028
+bundleId: 4265833
+url: https://mhenderson.shinyapps.io/energy-use-mobile/
+when: 1614164559.26245
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: energy.xlsx|.Rprofile
