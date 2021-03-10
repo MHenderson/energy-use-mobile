@@ -4,35 +4,9 @@ library(shinyMobile)
 library(simputation)
 library(tidyverse)
 
-dev_mode <- FALSE
+download.file("https://mjh-energy-data.netlify.app/tidy_energy.rda", destfile = "tidy_energy.rda")
 
-if(dev_mode) {
-
-  energy_2019 <- readxl::read_xlsx("energy.xlsx", sheet = "2019")
-  energy_2020 <- readxl::read_xlsx("energy.xlsx", sheet = "2020")
-  energy_2021 <- readxl::read_xlsx("energy.xlsx", sheet = "2021")
-
-} else {
-
-  googlesheets4::gs4_deauth()
-
-  # should be a secret?
-  sheet_id <- "15nKk44UVxxex7OrhdV3bZRTD0NsniclZmfwtqL0ls18"
-
-  energy_2019 <- sheet_id %>%
-    googlesheets4::range_read("2019")
-
-  energy_2020 <- sheet_id %>%
-    googlesheets4::range_read("2020")
-
-  energy_2021 <- sheet_id %>%
-    googlesheets4::range_read("2021")
-
-}
-
-energy <- bind_rows(energy_2019, energy_2020, energy_2021)
-
-tidy_energy <- prep_tidy_energy(energy)
+load("tidy_energy.rda")
 
 monthly_bills <- tidy_energy %>%
   filter(var == "cost") %>%
