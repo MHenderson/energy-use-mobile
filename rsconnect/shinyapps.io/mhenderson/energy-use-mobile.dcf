@@ -5,9 +5,9 @@ account: mhenderson
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3690028
-bundleId: 4265833
+bundleId: 4326984
 url: https://mhenderson.shinyapps.io/energy-use-mobile/
-when: 1614164559.26245
+when: 1615394530.81546
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: energy.xlsx|.Rprofile
+ignoredFiles: .gitremotes|.Rprofile|tidy_energy.rda|R/prep_tidy_energy.R
