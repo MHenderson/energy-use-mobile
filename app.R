@@ -1,7 +1,6 @@
 library(mobileCharts)
 library(shiny)
 library(shinyMobile)
-library(simputation)
 library(tidyverse)
 
 download.file("https://mjh-energy-data.netlify.app/data/tidy_energy.rds", destfile = "tidy_energy.rds")
