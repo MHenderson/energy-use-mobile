@@ -247,13 +247,6 @@
       "Repository": "RSPM",
       "Hash": "44594a07a42e5f91fac9f93fda6d0109"
     },
-    "gargle": {
-      "Package": "gargle",
-      "Version": "1.0.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "b15f20d3557a19c3c14bb2d839723591"
-    },
     "generics": {
       "Package": "generics",
       "Version": "0.1.0",
@@ -274,27 +267,6 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "6efd734b14c6471cfe443345f3e35e29"
-    },
-    "googledrive": {
-      "Package": "googledrive",
-      "Version": "1.0.1",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "79ba5d18133290a69b7c135dc3dfef1a"
-    },
-    "googlesheets4": {
-      "Package": "googlesheets4",
-      "Version": "0.3.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "fd028aa45f6785d7e83c0ed896b45904"
-    },
-    "gower": {
-      "Package": "gower",
-      "Version": "0.2.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "be6a2b3529928bd803d1c437d1d43152"
     },
     "gtable": {
       "Package": "gtable",
@@ -331,6 +303,13 @@
       "Repository": "RSPM",
       "Hash": "af2c2531e55df5cf230c4b5444fc973c"
     },
+    "htmlwidgets": {
+      "Package": "htmlwidgets",
+      "Version": "1.5.3",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Hash": "6fdaa86d0700f8b3e92ee3c445a5a10d"
+    },
     "httpuv": {
       "Package": "httpuv",
       "Version": "1.5.5",
@@ -344,13 +323,6 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "a525aba14184fec243f9eaec62fbed43"
-    },
-    "ids": {
-      "Package": "ids",
-      "Version": "1.0.1",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "99df65cfef20e525ed38c3d2577f7190"
     },
     "isoband": {
       "Package": "isoband",
@@ -442,6 +414,18 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "26fa77e707223e1ce042b2b5d09993dc"
+    },
+    "mobileCharts": {
+      "Package": "mobileCharts",
+      "Version": "0.0.1",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "mobileCharts",
+      "RemoteUsername": "RinteRface",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "ece3a75fadbcf74ed812fb24dd410e6f721bf29c",
+      "Hash": "fe68059e5ac43435a92265b49f1ea94f"
     },
     "modelr": {
       "Package": "modelr",
@@ -651,13 +635,6 @@
       "Repository": "RSPM",
       "Hash": "e339d5069ae7487a3b684985ffe34b81"
     },
-    "simputation": {
-      "Package": "simputation",
-      "Version": "0.2.6",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "d5f8df0c29ec9f9e39b15960aaddfdec"
-    },
     "sourcetools": {
       "Package": "sourcetools",
       "Version": "0.1.7",
@@ -727,13 +704,6 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "4a5081acfb7b81a572e4384a7aaf2af1"
-    },
-    "uuid": {
-      "Package": "uuid",
-      "Version": "0.1-4",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "e4169eb989a5d03ccb6b628cad1b1b50"
     },
     "vctrs": {
       "Package": "vctrs",
