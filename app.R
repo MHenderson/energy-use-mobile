@@ -4,9 +4,9 @@ library(shinyMobile)
 library(simputation)
 library(tidyverse)
 
-download.file("https://mjh-energy-data.netlify.app/tidy_energy.rda", destfile = "tidy_energy.rda")
+download.file("https://mjh-energy-data.netlify.app/data/tidy_energy.rds", destfile = "tidy_energy.rds")
 
-load("tidy_energy.rda")
+tidy_energy <- readRDS("tidy_energy.rds")
 
 monthly_bills <- tidy_energy %>%
   filter(var == "cost") %>%
